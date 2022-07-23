@@ -16,6 +16,7 @@ spec:
     spec:
       containers:
       - name: flask
-        image: digitalocean/flask-helloworld:latest
+        #image: digitalocean/flask-helloworld:latest
+        image: exokernel9/flask_demo:v0
         ports:
         - containerPort: 5000
